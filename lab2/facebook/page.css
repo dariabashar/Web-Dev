@@ -104,10 +104,10 @@ padding: 12px;
 }
 
  .line {
-        width: 100%; /* Растянуть линию на всю ширину контейнера */
-        border: none; /* Убрать стандартные границы */
-        height: 1px; /* Толщина линии */
-        background-color: rgba(0, 0, 0, 0.1); /* Цвет линии */
+        width: 100%; 
+        border: none; 
+        height: 1px; 
+        background-color: rgba(0, 0, 0, 0.1); 
         margin: 10px; 
 }
 
@@ -151,9 +151,9 @@ padding: 12px;
 }
 
 .linetwo {
-    width: 70%; /* Растянуть линию на всю ширину контейнера */
-    height: 1px; /* Толщина линии */
-    background-color: rgba(0, 0, 0, 0.1); /* Цвет линии */
+    width: 70%; 
+    height: 1px; 
+    background-color: rgba(0, 0, 0, 0.1); 
     margin-left: 200px; 
     margin-top: 10px;
     margin-bottom: 10px;

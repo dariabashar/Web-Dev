@@ -1,0 +1,16 @@
+<h2>Companies</h2>
+<ul>
+  <li *ngFor="let company of companies">
+    {{ company.name }} —
+    <button (click)="showVacancies(company.id)">Show Vacancies</button>
+  </li>
+</ul>
+
+<div *ngIf="selectedCompanyVacancies.length > 0">
+  <h3>Vacancies</h3>
+  <ul>
+    <li *ngFor="let vacancy of selectedCompanyVacancies">
+      {{ vacancy.name }} — {{ vacancy.salary }} ₸
+    </li>
+  </ul>
+</div>
